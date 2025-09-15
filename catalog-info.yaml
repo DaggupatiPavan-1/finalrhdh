@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: finalrhdh
+  description: Python app that displays time - named finalrhdh
+  annotations:
+    argocd/app-name: finalrhdh
+    github.com/project-slug: DaggupatiPavan-1/finalrhdh
+    backstage.io/kubernetes-namespace: prod
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/name=finalrhdh
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: development
+  lifecycle: experimental

@@ -1,0 +1,13 @@
+site_name: 'finalrhdh'
+site_description: 'Main documentation for the finalrhdh'
+repo_url: https://github.com/DaggupatiPavan-1/finalrhdh
+edit_uri: edit/main/docs
+
+plugins:
+  - techdocs-core
+
+# For sidebar navigation on https://backstage.io/, see `microsite/sidebars.json`
+nav:
+  - Overview:
+      - Getting started: 'index.md'
+
